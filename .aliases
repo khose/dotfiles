@@ -1,9 +1,16 @@
 # Terminal Aliases
+#Back navigation
 alias ..="cd .."
 alias ...="cd ../.."
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+
+#List commands
 alias l="ls -Gl" # All files colorized.
 alias la="ls -Glah" # All files colorized, including dot files.
 alias lsd='ls -l | grep "^d"' # Only all directories.
+
+
 alias g="git"
 alias v="vim"
 alias o="open"
@@ -38,4 +45,6 @@ alias gm="git merge"
 alias gt="git tag"
 alias grst="git reset --hard"
 alias grv="git remote -v"
+alias tolocal="gco local"
+alias todev="gco development"
 

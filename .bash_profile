@@ -19,4 +19,4 @@ export LANG="en_US"
 
 # Display Git Branch or Tag Names in your Bash Prompt
 source ~/.bash/git-prompt
-PS1="$GREEN\$(date +%H:%M) \w$RED \$(parse_git_branch_or_tag)$GREEN\$ "
+PS1='\[\033[1;31m\]\u\[\033[1;37m\] @ \[\033[1;33m\]\H \[\033[0m\]:\[\033[1;32m\]\w\[\033[0m\] \[\033[1;92m\]\[\033[1;36m\]$(parse_git_branch_or_tag) $ '
