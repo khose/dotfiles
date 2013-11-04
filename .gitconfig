@@ -1,9 +1,9 @@
 [user]
-    name = JaviLorbada
-    email = javugi@gmail.com
+    name = Marcos Hernandez
+    email = marcos.hdez.cif@gmail.com
 [github]
-    user = JaviLorbada
-    username = JaviLorbada
+    user = khose
+    username = khose
 [core] # Use custom `.gitignore` and `.gitattributes`
     excludesfile =  ~/.gitignore_global 
     excludesfile = ~/.gitignore
